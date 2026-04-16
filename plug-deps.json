@@ -1,0 +1,28 @@
+{
+  "subagent-driven-development": [
+    { "name": "using-git-worktrees",           "type": "skill",  "vault": "superpowers", "required": true },
+    { "name": "writing-plans",                 "type": "skill",  "vault": "superpowers", "required": true },
+    { "name": "requesting-code-review",        "type": "skill",  "vault": "superpowers", "required": true },
+    { "name": "finishing-a-development-branch","type": "skill",  "vault": "superpowers", "required": true },
+    { "name": "test-driven-development",       "type": "skill",  "vault": "superpowers", "required": false }
+  ],
+  "executing-plans": [
+    { "name": "using-git-worktrees",           "type": "skill",  "vault": "superpowers", "required": true },
+    { "name": "finishing-a-development-branch","type": "skill",  "vault": "superpowers", "required": true },
+    { "name": "writing-plans",                 "type": "skill",  "vault": "superpowers", "required": false }
+  ],
+  "systematic-debugging": [
+    { "name": "test-driven-development",       "type": "skill",  "vault": "superpowers", "required": true },
+    { "name": "verification-before-completion","type": "skill",  "vault": "superpowers", "required": true }
+  ],
+  "writing-skills": [
+    { "name": "test-driven-development",       "type": "skill",  "vault": "superpowers", "required": true }
+  ],
+  "writing-plans": [
+    { "name": "subagent-driven-development",   "type": "skill",  "vault": "superpowers", "required": true },
+    { "name": "brainstorming",                 "type": "skill",  "vault": "superpowers", "required": false }
+  ],
+  "requesting-code-review": [
+    { "name": "code-reviewer",                 "type": "agent",  "vault": "superpowers", "required": true }
+  ]
+}
